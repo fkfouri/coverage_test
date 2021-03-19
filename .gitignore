@@ -1,4 +1,6 @@
-/env
-/htmlcov
-/.pytest_cache
-/__pycache__
+env
+htmlcov
+.pytest_cache
+__pycache__
+*.pyc
+/.coverage

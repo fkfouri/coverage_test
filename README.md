@@ -29,3 +29,4 @@
 - exibindo formato html `coverage html`
 
 ## Pytest-cov
+- rodando de forma normal: `pytest --cov=app`
