@@ -28,7 +28,7 @@
 - mostrando missing `coverage report -m` ou `coverage report --show-missing`
 - exibindo formato html `coverage html`
 
-## Pytest-cov
+## Pytest-cov - https://pytest-cov.readthedocs.io/en/latest/
 - rodando de forma normal: `pytest --cov=app`
 - verbose: `pytest --cov=app -v`
 - `pytest -v -o junit_family=xunit1 --cov=app --cov-report xml:test-results/coverage.xml --cov-report html:test-results/cov_html  --junitxml=test-results/results.xml` 
@@ -39,4 +39,4 @@
 ## SonarQube
 `sonar-scanner.bat -D"sonar.projectKey=coverage" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=bba46f8771abfd98d8f1c2b4d1b2d33c3deecd6d"`
 
-`sonar-scanner -X -D"project.settings=sonar.properties" -D"sonar.login=bba46f8771abfd98d8f1c2b4d1b2d33c3deecd6d"`
+`sonar-scanner -X -D"project.settings=sonar-project.properties"`

@@ -11,5 +11,5 @@ class TestFibonacci(unittest.TestCase):
     def test_fibonnacci_30(self):
         self.assertEqual(fibonacci(30), 1346269)
 
-#if __name__ == '__main__':
-#    unittest.main()
+if __name__ == '__main__':
+    unittest.main()
