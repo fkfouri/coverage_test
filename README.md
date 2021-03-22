@@ -33,7 +33,7 @@
 - verbose: `pytest --cov=app -v`
 - `pytest -v -o junit_family=xunit1 --cov=app --cov-report xml:test-results/coverage.xml --cov-report html:test-results/cov_html  --junitxml=test-results/results.xml` 
 
-- `pytest -v -o junit_family=xunit1 --cov=app --cov-report xml:test-results/coverage.xml --junitxml=test-results/results.xml`
+- `pytest -v -o junit_family=xunit1 --cov=app --cov=test_app --cov-report xml:test-results/coverage.xml --junitxml=test-results/results.xml`
 
 
 ## SonarQube
